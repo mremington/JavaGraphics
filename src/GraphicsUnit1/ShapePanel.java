@@ -35,6 +35,8 @@ public class ShapePanel extends JPanel
 	 */
 	public void paint(Graphics window)
 	{
+                                    
+            
 		window.setColor(Color.WHITE);
 		window.fillRect(0,0,getWidth(), getHeight());
 		window.setColor(Color.BLUE);
@@ -45,11 +47,17 @@ public class ShapePanel extends JPanel
 
 		//instantiate a Shape
 		//tell your shape to draw
+                                       Shape s1 = new Shape(100,100,20,20,Color.GREEN);
+                                       s1.draw(window);
 
 		//instantiate a Shape
 		//tell your shape to draw
+                                       Shape s2 = new Shape(300,300,60,60,Color.BLUE);
+                                       s2.draw(window);
 
 		//instantiate a Shape
 		//tell your shape to draw
+                                       Shape s3 = new Shape(300,100,100,100,Color.BLACK);
+                                       s3.draw(window);
 	}
 }

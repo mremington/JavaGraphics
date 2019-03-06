@@ -44,6 +44,8 @@ public class ShapePanel extends JPanel
 
 
 		//make a Shape
+                                        Shape s1 = new Shape(50,50,100,100,Color.RED,5,5);
 		//draw the Shape
+                                        s1.draw(window);
 	}
 }
